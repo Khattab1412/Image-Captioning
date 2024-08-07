@@ -24,11 +24,37 @@ The model is compiled using categorical cross-entropy loss and the Adam optimize
 - **Data Generators**: Custom data generators are used for training and validation.
 - The model is saved after each epoch with filenames in the format `model_checkpoint_{i+1}.h5`.
 
-## Evaluation
-The model is evaluated using BLEU scores:
-- **BLEU-1**: 0.5545
-- **BLEU-2**: 0.3097
-- ![image](https://github.com/user-attachments/assets/8231dac1-360d-4983-92a6-3a0a2c3c8271)
+Here’s a structured section for your README file:
+
+---
+
+## Results
+Below are some key results from the model’s evaluation, as well as examples of generated captions.
+### Evaluation Metrics
+
+- **BLEU-1:** 0.5545
+- **BLEU-2:** 0.3097
+
+### Example Captions
+
+Below are some examples of generated captions by the model compared to ground truth captions:
+
+- **Image 1:** ![image](https://github.com/user-attachments/assets/6ea4d19d-2532-45fb-9ec6-9364e0b04118)
+  - **Generated Caption:** [start group of people are walking down the street end]
+  - **Ground Truth:** [start group of marines walking down the road with american flags and other military flags end
+start color guard representing the various arms of the armed services march in parade end
+start military section of parade is marching with many different flags end
+start marines dressing uniform walking in parade carrying their colors end
+start soldiers march up the street during parade end]
+
+- **Image 2:** ![image](https://github.com/user-attachments/assets/6dc2c669-fb1f-44b0-be1c-ed99753c56b4)
+  - **Generated Caption:** [start man in black shirt and black pants is singing into microphone end
+]
+  - **Ground Truth:** [start man wearing black leather jackets holds two microphones to his mouth while standing in front of orange and white sign end
+start man on stage talking through microphone in black leather jacket end
+start man in black leather jacket singing in to microphone end
+start man in leather jacket sings into two microphones end
+start man in black leather jacket is singing end]
 
 
 ## Text Preprocessing
