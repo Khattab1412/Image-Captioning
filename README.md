@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/e1e8a79a-a733-4b63-8232-6c3bf9127712)# Image Captioning on Flickr Dataset
+# Image Captioning on Flickr Dataset
 
 ## Project Overview
 This project focuses on generating image captions using a combination of pre-trained DenseNet121 and LSTM models. The goal is to create descriptive captions for images from the Flickr dataset by leveraging advanced deep learning techniques.
@@ -41,21 +41,30 @@ Below are some examples of generated captions by the model compared to ground tr
 
 - **Image 1:** ![image](https://github.com/user-attachments/assets/6ea4d19d-2532-45fb-9ec6-9364e0b04118)
   - **Generated Caption:** [start group of people are walking down the street end]
-  - **Ground Truth:** [start group of marines walking down the road with american flags and other military flags end
-start color guard representing the various arms of the armed services march in parade end
-start military section of parade is marching with many different flags end
-start marines dressing uniform walking in parade carrying their colors end
-start soldiers march up the street during parade end]
+### Ground Truth Captions
+
+The ground truth captions provided for our image captioning model include the following annotations:
+
+- **Annotation 1:** `start group of marines walking down the road with american flags and other military flags end`
+- **Annotation 2:** `start color guard representing the various arms of the armed services march in parade end`
+- **Annotation 3:** `start military section of parade is marching with many different flags end`
+- **Annotation 4:** `start marines dressed in uniform walking in parade carrying their colors end`
+- **Annotation 5:** `start soldiers march up the street during parade end`
 
 - **Image 2:** ![image](https://github.com/user-attachments/assets/6dc2c669-fb1f-44b0-be1c-ed99753c56b4)
   - **Generated Caption:** [start man in black shirt and black pants is singing into microphone end
 ]
-  - **Ground Truth:** [start man wearing black leather jackets holds two microphones to his mouth while standing in front of orange and white sign end
-start man on stage talking through microphone in black leather jacket end
-start man in black leather jacket singing in to microphone end
-start man in leather jacket sings into two microphones end
-start man in black leather jacket is singing end]
+### Ground Truth Captions
 
+The ground truth captions provided for our image captioning model include the following annotations:
+
+- **Annotation 1:** `start man wearing black leather jacket holds two microphones to his mouth while standing in front of orange and white sign end`
+- **Annotation 2:** `start man on stage talking through microphone in black leather jacket end`
+- **Annotation 3:** `start man in black leather jacket singing into microphone end`
+- **Annotation 4:** `start man in leather jacket sings into two microphones end`
+- **Annotation 5:** `start man in black leather jacket is singing end`
+
+These captions serve as reference descriptions for the corresponding images, used to train and evaluate the performance of the image captioning model. Each caption is preprocessed to include start and end tags, ensuring consistency and aiding in model training.
 
 ## Text Preprocessing
 Captions are preprocessed to ensure consistency and improve model performance:
